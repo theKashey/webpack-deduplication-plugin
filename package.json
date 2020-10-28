@@ -28,6 +28,7 @@
     "lint": "eslint --ext .ts,.tsx,.js src/"
   },
   "dependencies": {
+    "alphanum-sort": "^1.0.2",
     "app-root-path": "^3.0.0",
     "browser-resolve": "^1.11.3",
     "fast-glob": "^3.2.2",
