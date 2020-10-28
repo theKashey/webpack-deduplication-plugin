@@ -2324,11 +2324,6 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-find-package-json@^1.2.0:
-  version "1.2.0"
-  resolved "https://packages.atlassian.com/api/npm/npm-remote/find-package-json/-/find-package-json-1.2.0.tgz#4057d1b943f82d8445fe52dc9cf456f6b8b58083"
-  integrity sha1-QFfRuUP4LYRF/lLcnPRW9ri1gIM=
-
 find-up@^2.0.0, find-up@^2.1.0:
   version "2.1.0"
   resolved "https://packages.atlassian.com/api/npm/npm-remote/find-up/-/find-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
