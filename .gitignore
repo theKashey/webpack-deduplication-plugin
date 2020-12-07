@@ -7,6 +7,7 @@ npm-debug.log*
 .idea
 .DS_Store
 .vscode
+.history
 *.iml
 .vs
 jsconfig.json
