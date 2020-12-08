@@ -105,11 +105,9 @@ describe('duplicate-transitive-replacement', () => {
             path.resolve(matchingResource.context, matchingResource.request)
         );
 
-        const finder = require('find-package-json');
+        const { readPackageName } = require('../package-utils');
 
-        finder.mockImplementation(() => ({
-            next: () => ({ value: { name: '@org/component-b' } }),
-        }));
+        readPackageName.mockImplementation(() => '@org/component-b');
 
         const res = deduplicate(matchingResource, duplicates);
 
